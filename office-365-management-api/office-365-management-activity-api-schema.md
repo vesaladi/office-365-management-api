@@ -1611,7 +1611,7 @@ The Microsoft Forms events listed in [Search the audit log in the Office 365 Sec
 
 ## MIP base schema
 
- (add intro - suggest listing all record types that use the MIP base schema. ALso note that the schema only includes complex types and enums. It doesn't contain any base properties.)
+ (add intro - suggest listing all record types that use or are extended by the MIP base schema. ALlo note that the schema only includes complex types and enums. It doesn't contain any base properties.)
 
 ### EmailReceiver complex type
 
@@ -1727,7 +1727,7 @@ The Microsoft Forms events listed in [Search the audit log in the Office 365 Sec
 
 ### Enum: LocationType - Type: Edm.Int32
 
-(this enum is included in the schema but no properties in the schema use or reference this enum. I included it here to make you aware of it in the schema. Please determine if this enum should remain or be removed. This commment is from the schema: "Used by OfficeNative and Delphi")
+(this enum is included in the schema but no properties in the schema use or reference this enum. I included it here to make you aware of it in the schema. Please determine if this enum should remain or be removed. This commment is from the schema: "Used by OfficeNative and Delphi". We could include it here and then list the record types that use it; e.g. DLP Endpoint and Office Native)
 
 |**Value**|**Member name**|**Description**|
 |:-----|:-----|:-----|
@@ -1741,7 +1741,7 @@ The Microsoft Forms events listed in [Search the audit log in the Office 365 Sec
 
 ### Enum: Platform - Type: Edm.Int32
 
-(this enum is included in the schema but no properties in the schema use or reference this enum. I included it here to make you aware of it in the schema. Please determine if this enum should remain or be removed. This commment is from the schema: "Used by OfficeNative and Delphi" )
+(this enum is included in the schema but no properties in the schema use or reference this enum. I included it here to make you aware of it in the schema. Please determine if this enum should remain or be removed. This commment is from the schema: "Used by OfficeNative and Delphi". We could include it here and then list the record types that use it; e.g. DLP Endpoint and Office Native)
 
 |**Value**|**Member name**|**Description**|
 |:-----|:-----|:-----|
